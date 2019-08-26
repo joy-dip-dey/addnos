@@ -1,0 +1,23 @@
+---
+name : maxof3nos
+pack: adtwonos_pack
+runner_type: "python-script"
+description: Maximum of Three Numbers
+enabled : true
+entry_point : maxof3nos.py
+parameters:
+  inp1 :
+    type: integer
+    description : First Input
+    required: true
+    position : 1
+  inp2 : 
+    type: integer
+    description : Second Input
+    required: true
+    position : 2
+  inp3 : 
+    type: integer
+    description : Third Input
+    required: true
+    position : 3
