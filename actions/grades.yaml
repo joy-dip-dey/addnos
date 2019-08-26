@@ -1,0 +1,14 @@
+---
+name : grades
+pack: adtwonos_pack
+runner_type: "python-script"
+description: Display Grades
+enabled : true
+entry_point : grades.py
+parameters:
+  inp1 :
+    type: integer 
+    description : First Input
+    required: true
+    position : 1
+  
