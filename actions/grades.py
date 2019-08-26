@@ -15,7 +15,7 @@ class MyAction(Action):
         elif (inp1 in range(61,80)): 
             print ("Your Grade is B")
         elif (inp1 in range(81,100)): 
-            print ("Your Grade is C")          
+            print ("Your Grade is A")          
         else:
             print("Invalid Marks Entered ...")  
         return(True)
