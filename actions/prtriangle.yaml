@@ -1,0 +1,14 @@
+---
+name : prtriangle
+pack: adtwonos_pack
+runner_type: "python-script"
+description: Prints A Pattern
+enabled : true
+entry_point : prtriangle.py
+parameters:
+  inp1 :
+    type: integer
+    description : First Input
+    required: true
+    position : 1
+  
