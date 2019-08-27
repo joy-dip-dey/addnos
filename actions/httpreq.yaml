@@ -1,0 +1,14 @@
+---
+name : httpreq
+pack: adtwonos_pack
+runner_type: "python-script"
+description: Https Get Request
+enabled : true
+entry_point : httpreq.py
+parameters:
+  inp1 :
+    type: string
+    description: URL Input
+    required: true
+    position : 1
+  
