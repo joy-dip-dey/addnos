@@ -31,8 +31,3 @@ parameters:
     description : Fifth Input
     required: true
     position : 5
-  inp6 : 
-    type: string
-    description : Sixth Input
-    required: true
-    position : 6
