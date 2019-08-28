@@ -1,11 +1,9 @@
 import sys
 from st2common.runners.base_action import Action
+import requests
 
 class MyAction(Action):
-
     def run(self, inp1):
-        import requests 
-        URL = inp1
-        r = requests.get(URL, verify=False)
+        r = requests.get(inp1, verify=False)
         data = r.json()
         print (data)

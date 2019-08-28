@@ -1,0 +1,38 @@
+---
+name : httpost
+pack: adtwonos_pack
+runner_type: "python-script"
+description: HTTP Post
+enabled : true
+entry_point : httpost.py
+parameters:
+  inp1 :
+    type: integer
+    description : First Input
+    required: true
+    position : 1
+  inp2 : 
+    type: string
+    description : Second Input
+    required: true
+    position : 2
+  inp3 : 
+    type: string
+    description : Third Input
+    required: true
+    position : 3
+  inp4 :
+    type: integer
+    description : Fourth Input
+    required: true
+    position : 4
+  inp5 : 
+    type: string
+    description : Fifth Input
+    required: true
+    position : 5
+  inp6 : 
+    type: string
+    description : Sixth Input
+    required: true
+    position : 6
