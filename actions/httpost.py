@@ -9,7 +9,7 @@ class MyAction(Action):
     def run(self, inp1, inp2, inp3, inp4, inp5):
         URL = "https://fakerestapi.azurewebsites.net/api/Books"
         today = datetime.now()
-        nowintimestmp = datetime.timestamp(today)
+        #nowintimestmp = datetime.timestamp(today)
         inpdata = {
                    "ID": inp1,
                    "Title": inp2,
