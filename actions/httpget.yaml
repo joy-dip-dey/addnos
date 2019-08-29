@@ -1,0 +1,14 @@
+---
+name : httget
+pack: adtwonos_pack
+runner_type: "python-script"
+description: HTTP get
+enabled : true
+entry_point : httpget.py
+parameters:
+  inp1 :
+    type: integer
+    description : First Input
+    required: true
+    position : 1
+  
