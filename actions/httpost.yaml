@@ -26,7 +26,7 @@ parameters:
     description : Fourth Input
     required: true
     position : 4
-  publishdate :
+  excerpt :
     type: string
     description : Fifth Input
     required: true
