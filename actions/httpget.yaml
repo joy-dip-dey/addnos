@@ -6,7 +6,7 @@ description: HTTP get
 enabled : true
 entry_point : httpget.py
 parameters:
-  inp1 :
+  bookid :
     type: integer
     description : First Input
     required: true

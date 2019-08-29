@@ -6,16 +6,16 @@ from datetime import datetime
 
 class MyAction(Action):
 
-    def run(self, inp1, inp2, inp3, inp4, inp5):
+    def run(self, bookid, booktitle, despcrip, pgcount, publishdate):
         URL = "https://fakerestapi.azurewebsites.net/api/Books"
         today = datetime.now()
         #nowintimestmp = datetime.timestamp(today)
         inpdata = {
-                   "ID": inp1,
-                   "Title": inp2,
-                   "Description": inp3,
-                   "PageCount": inp4,
-                   "Excerpt": inp5,
+                   "ID": bookid,
+                   "Title": booktitle,
+                   "Description": despcrip
+                   "PageCount": pgcount,
+                   "Excerpt": publishdate,
                    "PublishDate": str(today)
                   }
 		  

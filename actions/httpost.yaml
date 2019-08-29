@@ -1,4 +1,4 @@
----
+---bookid, , , , 
 name : httpost
 pack: adtwonos_pack
 runner_type: "python-script"
@@ -6,27 +6,27 @@ description: HTTP Post
 enabled : true
 entry_point : httpost.py
 parameters:
-  inp1 :
+  bookid :
     type: integer
     description : First Input
     required: true
     position : 1
-  inp2 : 
+  booktitle : 
     type: string
     description : Second Input
     required: true
     position : 2
-  inp3 : 
+  despcrip : 
     type: string
     description : Third Input
     required: true
     position : 3
-  inp4 :
+  pgcount :
     type: integer
     description : Fourth Input
     required: true
     position : 4
-  inp5 : 
+  publishdate :
     type: string
     description : Fifth Input
     required: true

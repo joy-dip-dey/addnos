@@ -6,9 +6,9 @@ from datetime import datetime
 
 class MyAction(Action):
 
-    def run(self, inp1):
+    def run(self, bookid):
         URL = "https://fakerestapi.azurewebsites.net/api/Books"
-        r = requests.get(URL, params = {"ID": inp1}, verify=False)
+        r = requests.get(URL, params = {"ID": bookid}, verify=False)
         data = r.json()
         fout = json.dumps(data, indent=4, sort_keys=True)
         print (fout)
