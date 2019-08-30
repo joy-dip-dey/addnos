@@ -1,0 +1,14 @@
+---
+name : msgtwit
+pack: adtwonos_pack
+runner_type: "python-script"
+description: Sends a Twit Message to twitter
+enabled : true
+entry_point : msgtwit.py
+parameters:
+   message :
+     type : string 
+     description : Message Parameter
+     required : true
+     position : 1
+  
